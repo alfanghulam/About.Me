@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="About Me — proyek, sertifikat, dan cerita seputar web, AI, dan UI/UX.">
+<meta name="theme-color" content="#F6F5F0">
+<title>About Me</title>
+<link rel="icon" type="image/svg+xml" href="assets/image.png">
+<link rel="preload" href="assets/character.webp" as="image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Hanken+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+<noscript><p style="padding:40px;font-family:sans-serif">Aktifkan JavaScript untuk melihat arsip portofolio ini.</p></noscript>
+<div id="bar" aria-hidden="true"></div>
+<div class="curtain" id="curt" aria-hidden="true"><span id="cl"></span></div>
+
+<header class="top">
+  <a class="brand" href="#" data-p="home"><span id="brandName"></span><small id="brandSub"></small></a>
+  <nav aria-label="Navigasi utama"><a data-p="home" href="#">Home</a><a data-p="tentang" href="#tentang">About</a><a data-p="kontak" href="#kontak">Contact</a></nav>
+</header>
+
+<main>
+  <!-- ================= BERANDA ================= -->
+  <section class="page on" id="p-home">
+    <div class="pin hero" id="hero"><div class="sticky" id="hs">
+      <div class="word" id="word" aria-hidden="true"></div>
+      <div class="meta m tl" id="mTl"></div><div class="meta m tr" id="mTr"></div>
+      <div class="meta m bl" id="mBl"></div><div class="meta m br">Gulir ↓</div>
+      <div class="fig" id="hf"><div class="c" role="img" aria-label="Ilustrasi kartun Alfan berkacamata"></div><div class="eye e1"><i></i></div><div class="eye e2"><i></i></div></div>
+      <p class="herosub" id="hsub"></p>
+    </div></div>
+
+    <div class="intro" id="intro"></div>
+
+    <div class="sheet dark hs pin" id="hz"><div class="sticky">
+      <h2 id="pjTitle"></h2>
+      <div class="track" id="trk"></div>
+      <div class="prog"><i id="pg"></i></div>
+    </div></div>
+
+    <div class="sheet paper cert" id="cert">
+      <div class="m">Arsip</div>
+      <h2 id="ctTitle"></h2>
+      <div class="cc" id="cc"></div>
+    </div>
+
+    <div class="out"><a href="#kontak" data-p="kontak">Sapa aku <em>→</em></a></div>
+    <footer><span class="m" id="ft1"></span><span class="m" id="ft2"></span></footer>
+  </section>
+
+  <!-- ================= TENTANG ================= -->
+  <section class="page" id="p-tentang">
+    <div class="ab">
+      <aside class="abl">
+        <div class="frame"><div class="fig" id="af"><div class="c" role="img" aria-label="Ilustrasi kartun Alfan"></div><div class="eye e1"><i></i></div><div class="eye e2"><i></i></div></div></div>
+        <ol class="idx m" id="idx"></ol>
+      </aside>
+      <div class="abr" id="abr"></div>
+    </div>
+    <div class="out" style="margin-top:0"><a href="#kontak" data-p="kontak">Contact <em>→</em></a></div>
+  </section>
+
+  <!-- ================= KONTAK ================= -->
+  <section class="page" id="p-kontak">
+    <div class="ctp">
+      <h1>Mari<br><em>terhubung.</em></h1>
+      <p class="lead">Kalau ingin menyapa atau melihat lebih jauh, semuanya ada di sini.</p>
+      <ul class="rows" id="rows"></ul>
+    </div>
+  </section>
+</main>
+
+<dialog id="lb" aria-label="Pratinjau gambar">
+  <button class="x" id="lbx" type="button" aria-label="Tutup">✕</button>
+  <div class="box"><img id="lbImg" alt=""><div id="lbInfo"></div></div>
+</dialog>
+
+<script src="js/data.js?v=6"></script>
+<script src="js/main.js?v=6"></script>
+<script src="js/character.js?v=6"></script>
+<script src="js/scroll.js?v=6"></script>
+</body>
+</html>

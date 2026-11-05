@@ -79,6 +79,16 @@ window.PORTFOLIO = {
       demo: "",
       github: ""
     },
+            {
+      title: "SPK-Coworking",
+      category: "Web · SPK-Coworking",
+      year: "2026",
+      image: "assets/projects/SPK.webp",
+      description: "Web Penghitung lokasi Alternatif Co-working Berbasis Perhitungan AHP dan SAW .",
+      stack: [],
+      demo: "",
+      github: ""
+    },
   ],
 
   /* ----------------------------------------------------------

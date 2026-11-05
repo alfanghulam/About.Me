@@ -71,7 +71,7 @@ window.PORTFOLIO = {
     },
         {
       title: "E-learning",
-      category: "Web · E-learning",
+      category: "Web · e-learning",
       year: "2026",
       image: "assets/projects/E-learning.webp",
       description: "Web Interaktif. drop tugas, monitoring siswa, input nilai praktis, gamifikasi tugas.",
